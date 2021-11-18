@@ -62,4 +62,18 @@ On remarque dans le graphique que les dispersions des individus sont nettement p
  <img src="https://github.com/mouna0404/ACP/blob/4ceb5ec471e8ed1517822d43562d18b835922031/imgs/20.png"> <br>
  <img src="https://github.com/mouna0404/ACP/blob/4ceb5ec471e8ed1517822d43562d18b835922031/imgs/21.png"> <br>
  <li>Contribution des individus aux axes</li>
+  <img src="https://github.com/mouna0404/ACP/blob/4ceb5ec471e8ed1517822d43562d18b835922031/imgs/22.png"> <br>
+ Sans surprises, ce sont « Karpov » et « Sebrle » qui sont déterminants pour le premier axe ; pour le second, on a «Casarsa» et «Drews ».
+ <img src="https://github.com/mouna0404/ACP/blob/4ceb5ec471e8ed1517822d43562d18b835922031/imgs/23.png"> <br>
+ <img src="https://github.com/mouna0404/ACP/blob/4ceb5ec471e8ed1517822d43562d18b835922031/imgs/24.png"> <br>
    </ul>
+### e-	Représentation des variables – Outils pour l’aide à l’interprétation
+J’ai besoin des vecteurs propres pour l’analyse des variables. Ils sont fournis par le champ .components_
+ <img src="https://github.com/mouna0404/ACP/blob/4ceb5ec471e8ed1517822d43562d18b835922031/imgs/25.png"> <br>
+ <img src="https://github.com/mouna0404/ACP/blob/4ceb5ec471e8ed1517822d43562d18b835922031/imgs/26.png"> <br>
+Je dois en tenir compte pour obtenir les corrélations (variables x facteurs, 𝑟𝑗𝑘) en les multipliant par la racine carrée des valeurs propres
+<img src="https://github.com/mouna0404/ACP/blob/4ceb5ec471e8ed1517822d43562d18b835922031/imgs/27.png"> <br>
+Les variables sont maintenant en ligne, les facteurs en colonne :
+<img src="https://github.com/mouna0404/ACP/blob/4ceb5ec471e8ed1517822d43562d18b835922031/imgs/28.png"> <br>
+   Si l’on s’en tient spécifiquement aux deux premiers facteurs
+<img src="https://github.com/mouna0404/ACP/blob/4ceb5ec471e8ed1517822d43562d18b835922031/imgs/29.png"> <br>
