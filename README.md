@@ -21,8 +21,7 @@ Je dois explicitement centrer et réduire les variables pour réaliser une ACP n
 
 ## 3-	Analyse en composantes principales avec ACP de ‘’scikit-learn’’
 ### a. Instanciation et lancement des calculs
-   
-    Il faut instancier l’objet PCA dans un premier temps, nous affichons ses propriétés.
+Il faut instancier l’objet PCA dans un premier temps, nous affichons ses propriétés.
 La fonction fit_transform() renvoie en sortie les coordonnées factorielles Fik que je collecte dans la variable coord. J’affiche le nombre de composantes générées (K), il est bien égal à p = 10. <br>
 <img src="https://github.com/mouna0404/ACP/blob/4ceb5ec471e8ed1517822d43562d18b835922031/imgs/7.png"> <br>
  ###  b.	Valeurs propres
