@@ -27,6 +27,10 @@ La fonction fit_transform() renvoie en sortie les coordonnées factorielles Fik 
  ###  b.	Valeurs propres
 La propriété .explained_variance_ semble faire l’affaire pour obtenir les variances (valeurs propres, λk) associées aux axes factoriels.
 J’aurai pu obtenir les bonnes valeurs propres en passant par les valeurs singulières .singular_values_ issues de la factorisation de la matrice des données centrées et réduites. <br>
-    <img src="https://github.com/mouna0404/ACP/blob/4ceb5ec471e8ed1517822d43562d18b835922031/imgs/8.png"> <br>
-
+<img src="https://github.com/mouna0404/ACP/blob/4ceb5ec471e8ed1517822d43562d18b835922031/imgs/8.png"> <br>
+<img src="https://github.com/mouna0404/ACP/blob/4ceb5ec471e8ed1517822d43562d18b835922031/imgs/9.png"> <br>
+pca.explained_variance_ratio_ nous donne le pourcentage de variance expliquée par chacune des composantes.
+<img src="https://github.com/mouna0404/ACP/blob/4ceb5ec471e8ed1517822d43562d18b835922031/imgs/10.png"> <br>
+<img src="https://github.com/mouna0404/ACP/blob/4ceb5ec471e8ed1517822d43562d18b835922031/imgs/11.png"> <br>   
+La première composante accapare 32.7% de l’information disponible et la deuxième 17.3%. Au total, ces deux composantes expliquent 50% de la variance totale, en utilisant seulement un cinquième des dimensions initiales.  Je peux représenter chaque athlète/compétition selon ces deux dimensions uniquement.
 
