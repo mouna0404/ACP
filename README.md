@@ -37,7 +37,7 @@ La première composante accapare 32.7% de l’information disponible et la deuxi
 Les seuils sont définis par : 
          𝑏𝑘=∑_(m=k)^p▒1/m 
 Le facteur n°k est validé si (λk > bk), où λk est la valeur propre associée à l’axe n°k. 
-Je ces seuils, puis j’affiche les valeurs propres et les seuils.
+Je ces seuils, puis j’affiche les valeurs propres et les seuils. <br>
 <img src="https://github.com/mouna0404/ACP/blob/4ceb5ec471e8ed1517822d43562d18b835922031/imgs/12.png"> <br>
 <img src="https://github.com/mouna0404/ACP/blob/4ceb5ec471e8ed1517822d43562d18b835922031/imgs/13.png"> <br>
 Avec cette procédure, seul le premier facteur est valide. Le cercle des corrélations que nous construirons par la suite (Figure 5) semble aller dans le même sens.
@@ -54,10 +54,10 @@ On remarque dans le graphique que les dispersions des individus sont nettement p
  <li>Qualité de représentation – Les COS²</li>
  Pour calculer la qualité de représentation des individus sur les axes, nous devons d’abord calculer les carrés des distances à l’origine des individus, qui correspondent également à leur contribution dans l’inertie totale.
  <img src="https://github.com/mouna0404/ACP/blob/4ceb5ec471e8ed1517822d43562d18b835922031/imgs/16.png"> <br>
- Concrètement, « Casarsa », « Karpov » et « Sebrle » sont les trois athlètes qui se démarquent le plus des autres, et on les retrouve aux extrémités du premier axe factoriel qui porte 50% de l’information disponible.
+ Concrètement, « Casarsa », « Karpov » et « Sebrle » sont les trois athlètes qui se démarquent le plus des autres, et on les retrouve aux extrémités du premier axe factoriel qui porte 50% de l’information disponible. <br>
  <img src="https://github.com/mouna0404/ACP/blob/4ceb5ec471e8ed1517822d43562d18b835922031/imgs/17.png"> <br>
  <img src="https://github.com/mouna0404/ACP/blob/4ceb5ec471e8ed1517822d43562d18b835922031/imgs/18.png"> <br>
- Nous pouvons alors déduire la qualité de représentation des individus sur l’axe n°k. Les COS² pour les deux premiers facteurs sont affichés
+ Nous pouvons alors déduire la qualité de représentation des individus sur l’axe n°k. Les COS² pour les deux premiers facteurs sont affichés <br>
   <img src="https://github.com/mouna0404/ACP/blob/4ceb5ec471e8ed1517822d43562d18b835922031/imgs/19.png"> <br>
  <img src="https://github.com/mouna0404/ACP/blob/4ceb5ec471e8ed1517822d43562d18b835922031/imgs/20.png"> <br>
  <img src="https://github.com/mouna0404/ACP/blob/4ceb5ec471e8ed1517822d43562d18b835922031/imgs/21.png"> <br>
