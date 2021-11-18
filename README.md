@@ -77,3 +77,23 @@ Les variables sont maintenant en ligne, les facteurs en colonne : <br>
 <img src="https://github.com/mouna0404/ACP/blob/4ceb5ec471e8ed1517822d43562d18b835922031/imgs/28.png"> <br>
    Si l’on s’en tient spécifiquement aux deux premiers facteurs <br>
 <img src="https://github.com/mouna0404/ACP/blob/4ceb5ec471e8ed1517822d43562d18b835922031/imgs/29.png"> <br>
+<img src="https://github.com/mouna0404/ACP/blob/4ceb5ec471e8ed1517822d43562d18b835922031/imgs/30.png"> <br>
+On constate que toutes les variables sont corrélées positivement avec l’axe 1 sauf les variables 100m, 400m, 110m.hurdle et 1500m sont corrélés négativement.
+Concernant l’axe 2 toutes les variables sont corrélées positivement avec sauf les deux variables long.jump et pole.vault sont corrélés négativement. 
+On va dessiner maintenant le cercle des corrélations : <br>
+<img src="https://github.com/mouna0404/ACP/blob/4ceb5ec471e8ed1517822d43562d18b835922031/imgs/31.png"> <br>
+<img src="https://github.com/mouna0404/ACP/blob/4ceb5ec471e8ed1517822d43562d18b835922031/imgs/32.png"> <br>
+Les variables qui ont une contribution négative à la première composante principale correspondent aux disciplines pour lesquelles une bonne performance est représentée par un petit nombre (temps de course), et inversement pour les variables ayant une contribution positive. Cette composante permet de séparer les athlètes qui ont de très bonnes performances de ceux qui sont (relativement !) plus mauvais dans toutes les disciplines, comme nous l'avions remarqué.
+La deuxième composante principale permet de séparer les athlètes plus forts (bonnes performances aux lancers) et moins endurants (basse performance aux 400m et 1500m) des autres.
+Ce graphique nous permet aussi d'observer que certaines variables sont très corrélées, comme Discus (performance au lancer de disque) et Shot put (performance au lancer de poids).
+   <ul>
+    <li>	Qualité de représentation des variables (COS²)</li>
+    <img src="https://github.com/mouna0404/ACP/blob/4ceb5ec471e8ed1517822d43562d18b835922031/imgs/33.png"> <br>
+<img src="https://github.com/mouna0404/ACP/blob/4ceb5ec471e8ed1517822d43562d18b835922031/imgs/34.png"> <br>
+   <li>	Contribution des variables aux axes (CTR)</li>
+    <img src="https://github.com/mouna0404/ACP/blob/4ceb5ec471e8ed1517822d43562d18b835922031/imgs/35.png"> <br>
+<img src="https://github.com/mouna0404/ACP/blob/4ceb5ec471e8ed1517822d43562d18b835922031/imgs/36.png"> <br>
+    
+## Résumé
+        A partir du graphe de la représentation des individus et la cercle de corrélation des variables avoir une idée sur les profils des athlètes.
+   </ul>
