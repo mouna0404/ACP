@@ -20,12 +20,12 @@ Je dois explicitement centrer et réduire les variables pour réaliser une ACP n
 <img src="https://github.com/mouna0404/ACP/blob/4ceb5ec471e8ed1517822d43562d18b835922031/imgs/6.png"> <br>
 
 ## 3-	Analyse en composantes principales avec ACP de ‘’scikit-learn’’
+### a. Instanciation et lancement des calculs
    
-    ### a. Instanciation et lancement des calculs
     Il faut instancier l’objet PCA dans un premier temps, nous affichons ses propriétés.
 La fonction fit_transform() renvoie en sortie les coordonnées factorielles Fik que je collecte dans la variable coord. J’affiche le nombre de composantes générées (K), il est bien égal à p = 10. <br>
 <img src="https://github.com/mouna0404/ACP/blob/4ceb5ec471e8ed1517822d43562d18b835922031/imgs/7.png"> <br>
-    ###  b.	Valeurs propres
+ ###  b.	Valeurs propres
 La propriété .explained_variance_ semble faire l’affaire pour obtenir les variances (valeurs propres, λk) associées aux axes factoriels.
 J’aurai pu obtenir les bonnes valeurs propres en passant par les valeurs singulières .singular_values_ issues de la factorisation de la matrice des données centrées et réduites. <br>
     <img src="https://github.com/mouna0404/ACP/blob/4ceb5ec471e8ed1517822d43562d18b835922031/imgs/8.png"> <br>
