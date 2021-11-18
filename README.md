@@ -67,7 +67,7 @@ On remarque dans le graphique que les dispersions des individus sont nettement p
  <img src="https://github.com/mouna0404/ACP/blob/4ceb5ec471e8ed1517822d43562d18b835922031/imgs/23.png"> <br>
  <img src="https://github.com/mouna0404/ACP/blob/4ceb5ec471e8ed1517822d43562d18b835922031/imgs/24.png"> <br>
    </ul>
-### e-	Représentation des variables (Outils pour l’aide à l’interprétation) <br>
+###  e.	Représentation des variables (Outils pour l’aide à l’interprétation) <br>
 J’ai besoin des vecteurs propres pour l’analyse des variables. Ils sont fournis par le champ .components_ <br>
  <img src="https://github.com/mouna0404/ACP/blob/4ceb5ec471e8ed1517822d43562d18b835922031/imgs/25.png"> <br>
  <img src="https://github.com/mouna0404/ACP/blob/4ceb5ec471e8ed1517822d43562d18b835922031/imgs/26.png"> <br>
