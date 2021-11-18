@@ -93,7 +93,8 @@ Ce graphique nous permet aussi d'observer que certaines variables sont très cor
    <li>	Contribution des variables aux axes (CTR)</li>
     <img src="https://github.com/mouna0404/ACP/blob/4ceb5ec471e8ed1517822d43562d18b835922031/imgs/35.png"> <br>
 <img src="https://github.com/mouna0404/ACP/blob/4ceb5ec471e8ed1517822d43562d18b835922031/imgs/36.png"> <br>
-   </ul>   
-## Résumé
+   </ul> 
+   <br>
+##  Résumé
 A partir du graphe de la représentation des individus et la cercle de corrélation des variables avoir une idée sur les profils des athlètes.
  
